@@ -18,7 +18,7 @@ use App\Http\Controllers\pengaturanHalamanController;
 |
 */
 Route::get('/', function (){
-    return view('welcome');
+    return view('dashboard.layout');
 
 });
 Route::prefix('dashboard')->group(
